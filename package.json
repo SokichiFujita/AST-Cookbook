@@ -1,0 +1,24 @@
+{
+  "name": "ast-cookbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "babel.config.js",
+  "dependencies": {
+    "@babel/code-frame": "^7.0.0",
+    "@babel/generator": "^7.1.5",
+    "@babel/template": "^7.1.2",
+    "@babel/traverse": "^7.1.5",
+    "@babel/types": "^7.1.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5"
+  },
+  "scripts": {
+    "start": "node src/copyProps.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sokichi Fujita <dimension.sf@gmail.com> (https://github.com/SokichiFujita)",
+  "license": "ISC"
+}
